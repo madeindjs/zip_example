@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'mini_magick', '~> 4.8'
 
 # Gemfile
+gem 'active_storage-send_zip'
 gem 'rubyzip', '>= 1.0.0'
 
 # Use Capistrano for deployment

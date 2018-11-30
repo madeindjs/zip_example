@@ -2,7 +2,7 @@
 class UsersController < ApplicationController
   before_action :set_user, only: %i[show edit update destroy]
 
-  include GenerateZip
+  include ActiveStorage::SendZip
 
   # GET /users
   # GET /users.json
